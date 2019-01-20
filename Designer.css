@@ -1,0 +1,414 @@
+html {
+	background-image: url("images/background.png");
+	color: white;
+	margin: 0;
+	padding: 0;
+}
+body {
+	margin: 0;
+}
+h4 {
+	text-align: center;
+	color: #ff471a;
+	font-family: sans-serif;
+}
+h5 {
+	text-align: center;
+	color: #ff471a;
+	font-family: sans-serif;
+}
+button {
+	border-radius: 3px;
+	outline: none;
+}
+#titlepic {
+	background-color: #092a7d;
+	margin: 0 auto;
+	text-align: center;
+	height: 15vh;
+	width: 100%;
+}
+#titlepicture {
+	height: 14vh;
+}
+#dateposition {
+	position: absolute;
+	top: 0em;
+	left: 0em;
+	background-color: black;
+	padding: 1em;
+	border-bottom-right-radius: 10px;
+}
+#nowplaying {
+	display: none;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	height: 3em;
+	width: 19em;
+	background-color: #092a7d;
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+}
+#scrollingdiv {
+	display: none;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	width: 12em;
+	height: 3em;
+	background-color: #092a7d;
+	z-index: 2;
+	padding-right: 1em;
+}
+#musicplaying {
+	color: white;
+	margin-left: 1em; 
+	margin-right: 0.5em;
+}
+#nowplayingtext {
+	text-align: left;
+	color: #06A50D;
+}
+#stopaudio {
+	display: inline-block;
+	height: 3em;
+}
+#playpauseaudio {
+	display: inline-block;
+	height: 3em;
+	outline: none;
+}
+#musicbuttons {
+	display: none;
+	position: absolute;
+	right: 0em;
+	bottom: 30em;
+}
+#gamemenu {
+	text-align: center;
+}
+#startgame {
+	display: inline-block;
+	margin-right: 7px;
+	border-radius: 3px;
+}
+#gameoptions {
+	display: inline-block;
+	border-radius: 3px;
+}
+#gamestart {
+	display: none;
+	border-radius: 10px;
+	background-color: black;
+	margin: 0px auto;
+	width: 325px;
+	padding: 10px;
+	text-align: left;
+	font-family: Georgia;
+}
+#options {
+	display: none;
+	border-radius: 10px;
+	background-color: black;
+	margin: 0px auto;
+	width: 325px;
+	padding: 10px;
+	text-align: left;
+	font-family: Georgia;
+}
+#easy {
+	float: right;
+	background-color: #33a325;
+	color: black;
+	border-color: #33a325;
+	border-radius: 5px;
+	margin-right: 15px;
+	clear: left;
+}
+#medium {
+	border-color: #e0e011;
+	float: right;
+	border-radius: 5px;
+	background-color: #e0e011;
+	margin-right: 15px;
+}
+#hard {
+	float: right;
+	border-radius: 5px;
+	background-color: #9b2626;
+	border-color: #9b2626;
+}
+#musicon {
+	float: right;
+	margin-right: 10px;
+}
+#musicoff {
+	float: right;
+	color: red;
+}
+#soundfxon {
+	float: right;
+	margin-right: 10px;
+}
+#soundfxoff {
+	float: right;
+}
+#main {
+	border-radius: 7px;
+	background-color: black;
+	margin: 0 auto;
+	width: 710px;
+	padding: 10px;
+	display: none;
+	text-align: left;
+	font-family: Georgia;
+}
+#restart {
+	display: none;
+}
+#acceptweapon {
+	display: none;
+}
+#expositionpt2 {
+	display: none;
+}
+#expositionpt3 {
+	display: none;
+}
+#expositionpt4 {
+	display: none;
+}
+#bluecard {
+	display: none;
+}
+#redcard {
+	display: none;
+	margin-top: 5px;
+}
+#greencard {
+	display: none;
+	margin-top: 5px;
+}
+#journey1 {
+	display: none;
+}
+#journey2 {
+	display: none;
+}
+#getfruit {
+	display: none;
+}
+#leavefruit {
+	display: none;
+}
+#journey3 {
+	display: none;
+}
+#goblinfight {
+	display: none;
+}
+#goblinattack {
+	display: none;
+}
+#goblinItem {
+	display: none;
+}
+#goblinflee {
+	display: none;
+}
+#levelup {
+	display: none;
+}
+#journey4 {
+	display: none;
+}
+#rest {
+	display: none;
+}
+#norest {
+	display: none;
+}
+#journey5 {
+	display: none;
+}
+#dragonfight {
+	display: none;
+}
+#dragonattack {
+	display: none;
+}
+#dragonitem {
+	display: none;
+}
+#journey6 {
+	display: none;
+}
+#backtotown {
+	display: none;
+	margin-top: 5px;
+}
+#goalone {
+	display: none;
+	margin-top: 5px;
+}
+#characterstats {
+	background-color: black;
+	display: none;
+	position: fixed;
+	bottom: 250px;
+	right: 10px;
+	color: white;
+	width: 200px;
+	padding-right: 10px;
+	padding-left: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+#chartitle {
+	color: #cccc00;
+}
+#charhealth {
+	color: #00cc88;
+}
+#charsouls {
+	color: #FE1717;
+}
+#charblood {
+	color: #A80101;
+}
+#goblinstats {
+	background-color: #4d0000;
+	display: none;
+	position: fixed;
+	right: 10px;
+	bottom: 10px;
+	width: 200px;
+	padding-right: 10px;
+	padding-left: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+#goblinname {
+	color: #b3b300;
+}
+#goblintitle {
+	color: #0000e6;
+}
+#goblinhealth {
+	color: #00cc88;
+}
+#goblinweapon {
+	color: #cc99ff;
+}
+#dragonstats {
+	background-color: #1a0000;
+	display: none;
+	position: fixed;
+	right: 10px;
+	bottom: 20px;
+	width: 200px;
+	padding-right: 10px;
+	padding-left: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+#dragonname {
+	color: #e67300;
+}
+#dragonTitle {
+	color: #0000ff;
+}
+#dragonHealth {
+	color: #00cc88;
+}
+#gamebuttons {
+	position: fixed;
+	bottom: 250px;
+	background-color: black;
+	width: 200px;
+	padding-right: 10px;
+	padding-left: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	display: none;
+}
+.narrative {
+	color: #FEFE00;
+}
+.merlin {
+	color: #4d79ff;
+}
+.SoulSlayer {
+	color: #FE1717;
+	display: none;
+	font-style: italic;
+}
+.BloodThirster {
+	color: #A80101;
+	display: none;
+	font-style: italic;
+}
+.DevilDestroyer {
+	color: #990000;
+	display: none;
+	font-style: italic;
+}
+.woodenarmor {
+	color: #4d4dff;
+	font-style: italic;
+}
+.dragonarmor {
+	color: #3333ff;
+	font-style: italic;
+}
+.regularpot {
+	color: #00cc00;
+	font-style: italic;
+}
+.superiorpot {
+	color: #009900;
+	font-style: italic;
+}
+.strengthpot {
+	color: #ff8c1a;
+}
+.firebomb {
+	color: #b35900;
+}
+.losehealth {
+	color: #ff5c33;
+}
+.gainhealth {
+	color: #66ffcc;
+}
+.goblin {
+	color: #ac7339;
+}
+.losetext {
+	color: #ff3333;
+}
+.win {
+	color: #0ef7f7;
+}
+.badend {
+	color: #960101;
+}
+#leveluptext {
+	color: #66d9ff;
+}
+#leveluptext2 {
+	color: #66d9ff;
+}
+#combatstart {
+	color: #ff3333;
+}
+#combatstart2 {
+	color: #ff3333;
+}
+#goblinscream {
+	color: #ac7339;
+}
+#dragondeathcry {
+	color: #FEFE00;
+}
