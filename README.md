@@ -1,5 +1,5 @@
 # Lionheart-Legends-of-Bloomfera
-Text-adventure game using HTML, CSS, javascript, and jQuery!
+Text-adventure game using HTML, CSS, Javascript, and jQuery!
 
 (24/1/2017) 
 -	This game has been built from scratch. Html, CSS, Javascript, and jQuery files were all created with no base.
